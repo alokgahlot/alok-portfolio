@@ -1,12 +1,12 @@
 {
-  "name": "my-portfolio",
+  "name": "alok-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://alokgahlot.github.io/alok-portfolio",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -37,6 +37,7 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.13.0",
     "postcss": "^8.4.49",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.1",
